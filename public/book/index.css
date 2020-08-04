@@ -1,0 +1,48 @@
+
+.book-container{
+	display: flex;
+}
+.left-container{
+	width: 25%;
+	padding: 5px;
+}
+
+.left-container ul li{
+	padding: 8px 0px;
+	list-style-type: none;
+	cursor: pointer;
+}
+.selected{
+	color: orange;
+}
+.left-container ul {
+	padding : 0;
+}	
+.right-container{
+	width: 100%;
+}
+.table-content{
+	width:100%
+}
+tr, td, th{
+	border:1px solid grey;
+	padding:10px !important;
+}
+@media screen and (max-width: 500px){
+  	.book-container{
+		display:block
+	}
+	.left-container{
+		width: 100%;
+	}
+	tr, td, th{
+		border:1px solid grey;
+		padding:5px !important;
+	}
+}
+
+
+
+
+
+
